@@ -66,7 +66,7 @@ class NPC:
 
 
 
-class kobold:
+class kobold(NPC):
     def __init__(self):
         super().__init__()
 
@@ -78,7 +78,7 @@ class kobold:
         return
 
 
-class Heros:
+class Heros(NPC):
     def __init__(self):
         super().__init__()
 
